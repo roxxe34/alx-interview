@@ -2,17 +2,21 @@
 """
     Generate Pascal's triangle up to n rows.
     """
+
+
 def pascal_triangle(n):
     '''
     Generate Pascal's triangle up to n rows.
 
-    In Pascal's triangle, each number is the sum of the two numbers directly above it.
+    In Pascal's triangle, each number is the sum of the
+    two numbers directly above it.
 
     Parameters:
     n (int): The number of rows in Pascal's triangle to generate.
 
     Returns:
-    list of lists of int: A list of lists of integers representing Pascal's triangle.
+    list of lists of int: A list of lists of
+    integers representing Pascal's
     '''
     if n <= 0:
         return []
